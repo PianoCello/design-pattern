@@ -1,0 +1,24 @@
+package com.piano.behavior.chain_of_responsibility;
+
+/**
+ * 审批者类，充当抽象处理者
+ */
+public abstract class Approver {
+
+    //定义后继对象
+    protected Approver successor;
+    //审批者名称
+    protected String name;
+
+    public Approver(String name) {
+        this.name = name;
+    }
+
+    //设置后继者
+    public void setSuccessor(Approver successor) {
+        this.successor = successor;
+    }
+
+    //抽象请求处理方法
+    public abstract void processRequest(PurchaseRequest request);
+}

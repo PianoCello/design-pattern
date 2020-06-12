@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--抽象工厂模式的配置文件 xml-->
+<config>
+    <className>
+        com.piano.creation.abstract_factory.SummerSkinFactory
+    </className>
+</config>

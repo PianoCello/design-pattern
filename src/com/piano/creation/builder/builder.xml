@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--构造者模式的配置文件 xml-->
+<config>
+    <className>
+        com.piano.creation.builder.HeroActorBuilder
+    </className>
+</config>
